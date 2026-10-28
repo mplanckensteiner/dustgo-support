@@ -24,8 +24,8 @@ Sessions also end automatically when your Mac goes to sleep, the screen locks, o
 **DustGo says it needs Accessibility access, but I already turned it on.**
 In System Settings → Privacy & Security → Accessibility, select DustGo, remove it with the − button, then add it again with +. This often happens after an update.
 
-**Some keys still work during cleaning.**
-macOS doesn't let apps block Touch ID, the power button, or some keys handled by your Mac's firmware. Brightness, volume, and media keys may also behave differently depending on your keyboard and settings.
+**Can any keys still work during cleaning?**
+DustGo pauses letters, numbers, modifier keys, function keys, and brightness, volume, and media keys. A few things are handled by your Mac's hardware and can't be paused by any app: holding the power button to force a shutdown, and Touch ID fingerprint recognition.
 
 **The trackpad still does some things while paused.**
 Some system gestures, like Mission Control and swiping between Spaces, are handled by macOS and may still respond. Connected mice are paused too, because macOS doesn't say which device an event came from.
